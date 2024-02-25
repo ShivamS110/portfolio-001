@@ -1,0 +1,11 @@
+.meRightImgContainer{
+    width: 476px;
+    height: 425px;
+    overflow: hidden;
+}
+
+.meRightImgContainer img{
+    max-width: 100%;
+    max-height: 85%;
+    object-fit: contain;
+}

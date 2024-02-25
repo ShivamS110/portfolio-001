@@ -1,0 +1,17 @@
+.projectImgContainer{
+    width: 500px;
+    overflow: hidden;
+    margin: 50px;
+}
+.projectImgContainer img{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .projectImgContainer{
+        width: 100%;
+        margin: 0;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+}
